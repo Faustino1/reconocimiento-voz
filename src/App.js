@@ -75,7 +75,7 @@ function App() {
   return (
     <>
       <div className="nota">
-        <h1>Nota de voz</h1>
+        <h1>Notas de voz</h1>
         <div className="microfono">
           <IconButton onClick={() => SetListening((preveState => !preveState))}>
             <img className="mi-icon" src={isListening ? microfonoOn : mute} atl="microfono" />
